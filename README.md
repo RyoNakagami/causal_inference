@@ -14,8 +14,8 @@
     - [Mathematics](#mathematics)
     - [Probability and statistics](#probability-and-statistics)
     - [Programming skills](#programming-skills)
-  - [Course Website](#course-website)
   - [実行環境](#%e5%ae%9f%e8%a1%8c%e7%92%b0%e5%a2%83)
+  - [Schedule](#schedule)
   - [参考文献](#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -60,11 +60,14 @@ Computationという観点では、主にPythonを用いる予定。今回取り
 ### Programming skills
 - わからないことあったらまず公式documentを読む精神の持ち主
 
-## Course Website
-TBA
-
 ## 実行環境
 - リポジトリの Jupyter Notebook は Google Colab 上で実行されることを想定
+
+## Schedule
+
+|week|topic|
+|---|---|
+|week 1| textbook ch1, Maximum Likelihood introduction|
 
 ## 参考文献
 - Angrist, J. D., and J. S. Pischke. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton University Press, 2009. ISBN: 9780691120355. 
