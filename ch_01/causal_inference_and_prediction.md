@@ -1,16 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [因果推論と予測問題とIssue-Solving](#%E5%9B%A0%E6%9E%9C%E6%8E%A8%E8%AB%96%E3%81%A8%E4%BA%88%E6%B8%AC%E5%95%8F%E9%A1%8C%E3%81%A8issue-solving)
-  - [はじめに](#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB)
-  - [天気の実証分析](#%E5%A4%A9%E6%B0%97%E3%81%AE%E5%AE%9F%E8%A8%BC%E5%88%86%E6%9E%90)
-    - [予算管理と予測の違い](#%E4%BA%88%E7%AE%97%E7%AE%A1%E7%90%86%E3%81%A8%E4%BA%88%E6%B8%AC%E3%81%AE%E9%81%95%E3%81%84)
-  - [Prediction and Causation (一般化)](#prediction-and-causation-%E4%B8%80%E8%88%AC%E5%8C%96)
-  - [Bias-variance trade-off](#bias-variance-trade-off)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # 因果推論と予測問題とIssue-Solving
 
 ||概要|
@@ -20,8 +7,21 @@
 |参考|[Prediction Policy Problems](https://www.aeaweb.org/articles?id=10.1257/aer.p20151023)|
 
 
-<!-- START DOCTOC -->
-<!-- END DOCTOC -->
+## INDEX
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [因果推論と予測問題とIssue-Solving](#%e5%9b%a0%e6%9e%9c%e6%8e%a8%e8%ab%96%e3%81%a8%e4%ba%88%e6%b8%ac%e5%95%8f%e9%a1%8c%e3%81%a8issue-solving)
+  - [INDEX](#index)
+  - [はじめに](#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab)
+  - [天気の実証分析](#%e5%a4%a9%e6%b0%97%e3%81%ae%e5%ae%9f%e8%a8%bc%e5%88%86%e6%9e%90)
+    - [予算管理と予測の違い](#%e4%ba%88%e7%ae%97%e7%ae%a1%e7%90%86%e3%81%a8%e4%ba%88%e6%b8%ac%e3%81%ae%e9%81%95%e3%81%84)
+  - [Prediction and Causation (一般化)](#prediction-and-causation-%e4%b8%80%e8%88%ac%e5%8c%96)
+  - [Bias-variance trade-off](#bias-variance-trade-off)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## はじめに
 
@@ -71,7 +71,7 @@ $$
 OLSがやっていることは
 
 $$
-\hat f_{OLS} = \argmin_{f_{\beta\in F_{lin}}\sum_{i= 1}^{n}(y_i - f(x_i))^2
+\hat f_{OLS} = \argmin_{f_{\beta}\in F_{lin}}\sum_{i= 1}^{n}(y_i - f(x_i))^2
 $$
 
 より具体的にここでのOLSは
