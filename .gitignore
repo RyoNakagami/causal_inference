@@ -58,3 +58,6 @@ target/
 # tmp file
 .swp
 .DS_Store
+
+# cache
+*/cachedir/
