@@ -61,3 +61,6 @@ target/
 
 # cache
 datascience_for_business/APPENDIX/cachedir/
+
+# data
+datascience_for_business/data/*.csv
